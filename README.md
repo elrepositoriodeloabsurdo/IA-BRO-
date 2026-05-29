@@ -1,19 +1,20 @@
 <p align="center">
-  <img src="public/assets/openfang-logo.png" width="160" alt="OpenFang Logo" />
+  <img src="public/assets/VibeCodingChile.png" width="160" alt=VibeCodingChile Logo" />
 </p>
 
-<h1 align="center">OpenFang</h1>
-<h3 align="center">The Agent Operating System</h3>
+<h1 align="center">VibeCodingChile</h1>
+<h3 align="center">The BRO! Operating System</h3>
 
 <p align="center">
-  Open-source Agent OS built in Rust. 137K LOC. 14 crates. 1,767+ tests. Zero clippy warnings.<br/>
+   VibeCodingChile BRO'0S built in Rust. 137K LOC. 14 crates. 
+1,767+ tests. Zero clippy warnings.<br/>
   <strong>One binary. Battle-tested. Agents that actually work for you.</strong>
 </p>
 
 <p align="center">
-  <a href="https://openfang.sh/docs">Documentation</a> &bull;
-  <a href="https://openfang.sh/docs/getting-started">Quick Start</a> &bull;
-  <a href="https://x.com/openfangg">Twitter / X</a>
+  <a href="https://VibeCodingChile.sh/docs">Documentation</a> &bull;
+  <a href="https://VibeCodingChile.sh/docs/getting-started">Quick Start</a> &bull;
+  <a href="https://www.vinecodingchile.cl"> / X</a>
 </p>
 
 <p align="center">
@@ -22,29 +23,28 @@
   <img src="https://img.shields.io/badge/version-0.6.9-green?style=flat-square" alt="v0.6.9" />
   <img src="https://img.shields.io/badge/tests-2,696%2B%20passing-brightgreen?style=flat-square" alt="Tests" />
   <img src="https://img.shields.io/badge/clippy-0%20warnings-brightgreen?style=flat-square" alt="Clippy" />
-  <a href="https://www.buymeacoffee.com/openfang" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
-</p>
+  <a href="https://www.vibecodingchile.cl"
 
 ---
 
 > **v0.5.10 (April 2026)**
 >
-> OpenFang is feature complete but still pre-1.0. Expect rough edges and breaking changes between minor versions. We ship fast and fix fast. Pin to a specific commit for production use until v1.0. [Report issues here.](https://github.com/RightNow-AI/openfang/issues)
+> BRO! is feature complete but still pre-1.0. Expect rough edges and breaking changes between minor versions. We ship fast and fix fast.
 
 ---
 
 ## What is OpenFang?
 
-OpenFang is an **open-source Agent Operating System**. Not a chatbot framework. Not a Python wrapper around an LLM. Not a "multi-agent orchestrator." A full operating system for autonomous agents, built from scratch in Rust.
+Os BRO! Agent Operating System**. Not a chatbot framework. Not a Python wrapper around an LLM. Not a "multi-agent orchestrator." A full operating system for autonomous agents, built from scratch in Rust.
 
-Traditional agent frameworks wait for you to type something. OpenFang runs **autonomous agents that work for you**: on schedules, 24/7, building knowledge graphs, monitoring targets, generating leads, managing your social media, and reporting results to your dashboard.
+Traditional agent frameworks wait for you to type something. BRO! runs **autonomous agents that work for you**: on schedules, 24/7, building knowledge graphs, monitoring targets, generating leads, managing your social media, and reporting results to your dashboard.
 
 The entire system compiles to a **single ~32MB binary**. One install, one command, your agents are live.
 
 ```bash
-curl -fsSL https://openfang.sh/install | sh
-openfang init
-openfang start
+curl -fsSL https://bro.sh/install | sh
+BRO! init
+BRO! start
 # Dashboard live at http://localhost:4200
 ```
 
@@ -65,7 +65,7 @@ openfang start
 
 <p align="center"><em>"Traditional agents wait for you to type. Hands work <strong>for</strong> you."</em></p>
 
-**Hands** are OpenFang's core innovation. Pre-built autonomous capability packages that run independently, on schedules, without you having to prompt them. This is not a chatbot. This is an agent that wakes up at 6 AM, researches your competitors, builds a knowledge graph, scores the findings, and delivers a report to your Telegram before you've had coffee.
+**Hands** are BRO!'s core innovation. Pre-built autonomous capability packages that run independently, on schedules, without you having to prompt them. This is not a chatbot. This is an agent that wakes up at 6 AM
 
 Each Hand bundles:
 - **HAND.toml**: manifest declaring tools, settings, requirements, and dashboard metrics.
@@ -92,31 +92,31 @@ All compiled into the binary. No downloading, no pip install, no Docker pull.
 openfang hand activate researcher
 
 # Check its progress anytime
-openfang hand status researcher
+BRO! hand status researcher
 
 # Activate lead generation on a daily schedule
-openfang hand activate lead
+BRO! hand activate lead
 
 # Pause without losing state
-openfang hand pause lead
+BRO! hand pause lead
 
 # See all available Hands
-openfang hand list
+BRO! hand list
 ```
 
 **Build your own.** Define a `HAND.toml` with tools, settings, and a system prompt. Publish to FangHub.
 
 ---
 
-## OpenFang vs The Landscape
+## Bro!vs The Landscape
 
 <p align="center">
-  <img src="public/assets/openfang-vs-claws.png" width="600" alt="OpenFang vs OpenClaw vs ZeroClaw" />
+  <img src="public/assets/BRO!-vs-claws.png" width="600" alt="BRO! vs OpenClaw vs ZeroClaw" />
 </p>
 
 ### Benchmarks: Measured, Not Marketed
 
-All data from official documentation and public repositories, February 2026.
+All data from official documentation and public repositories, MAYO 2026.
 
 #### Cold Start Time (lower is better)
 
@@ -205,7 +205,7 @@ AutoGen    ███████████░░░░░░░░░░░░
 
 ## 16 Security Systems: Defense in Depth
 
-OpenFang doesn't bolt security on after the fact. Every layer is independently testable and operates without a single point of failure.
+BRO! doesn't bolt security on after the fact. Every layer is independently testable and operates without a single point of failure.
 
 | # | System | What It Does |
 |---|--------|-------------|
