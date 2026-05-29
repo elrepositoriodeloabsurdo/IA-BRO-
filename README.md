@@ -33,7 +33,7 @@
 
 ---
 
-## What is OpenFang?
+## What is BRO!by VibeCodingChile ?
 
 Os BRO! Agent Operating System**. Not a chatbot framework. Not a Python wrapper around an LLM. Not a "multi-agent orchestrator." A full operating system for autonomous agents, built from scratch in Rust.
 
@@ -52,9 +52,9 @@ BRO! start
 <summary><strong>Windows</strong></summary>
 
 ```powershell
-irm https://openfang.sh/install.ps1 | iex
-openfang init
-openfang start
+irm https://BRO!.sh/install.ps1 | iex
+BRO init
+BRO  start
 ```
 
 </details>
