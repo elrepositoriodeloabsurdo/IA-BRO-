@@ -1,0 +1,12 @@
+{
+  "name": "Vibecodingchile IA,BRO!",
+  "short_name": "IA,BRO!",
+  "description": "Fullstack agent dashboard by Vibecodingchile",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#6366f1",
+  "icons": [
+    {"src": "/logo.png", "sizes": "128x128", "type": "image/png"}
+  ]
+}
