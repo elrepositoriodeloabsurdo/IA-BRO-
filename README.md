@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="public/assets/openfang-logo.png" width="160" alt="OpenFang Logo" />
+  <img src="public/VibeCodingChile" width="160" alt="vinecodingchile" />
 </p>
 
-<h1 align="center">OpenFang</h1>
-<h3 align="center">The Agent Operating System</h3>
+<h1 align="center">SEEDBRO! </h1>
+<h3 align="center">SEED AGENT CREATE System</h3>
 
 <p align="center">
   Open-source Agent OS built in Rust. 137K LOC. 14 crates. 1,767+ tests. Zero clippy warnings.<br/>
@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="https://openfang.sh/docs">Documentation</a> &bull;
-  <a href="https://openfang.sh/docs/getting-started">Quick Start</a> &bull;
-  <a href="https://x.com/openfangg">Twitter / X</a>
+  <a href="https://VIBECODINGCHILE.sh/docs">Documentation</a> &bull;
+  <a href="https://VIBECODINGCHILE.sh/docs/getting-started">Quick Start</a> &bull;
+  <a href="https://>WWW.VIBECODINGCHILE.CL / X</a>
 </p>
 
 <p align="center">
@@ -22,29 +22,28 @@
   <img src="https://img.shields.io/badge/version-0.6.9-green?style=flat-square" alt="v0.6.9" />
   <img src="https://img.shields.io/badge/tests-2,696%2B%20passing-brightgreen?style=flat-square" alt="Tests" />
   <img src="https://img.shields.io/badge/clippy-0%20warnings-brightgreen?style=flat-square" alt="Clippy" />
-  <a href="https://www.buymeacoffee.com/openfang" target="_blank"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" /></a>
+  
 </p>
 
 ---
 
 > **v0.5.10 (April 2026)**
 >
-> OpenFang is feature complete but still pre-1.0. Expect rough edges and breaking changes between minor versions. We ship fast and fix fast. Pin to a specific commit for production use until v1.0. [Report issues here.](https://github.com/RightNow-AI/openfang/issues)
-
+> SEEDBROstill pre-1.0. Expect rough edges and breaking changes between minor versions. We ship fast and fix fast. Pin to a specific commit for production use until v1.0. 
 ---
 
-## What is OpenFang?
+## What is SEEDBRO!
 
-OpenFang is an **open-source Agent Operating System**. Not a chatbot framework. Not a Python wrapper around an LLM. Not a "multi-agent orchestrator." A full operating system for autonomous agents, built from scratch in Rust.
+ is an **open-source Agent Operating System**. Not a chatbot framework. Not a Python wrapper around an LLM. Not a "multi-agent orchestrator." A full operating system for autonomous agents, built from scratch in Rust.
 
-Traditional agent frameworks wait for you to type something. OpenFang runs **autonomous agents that work for you**: on schedules, 24/7, building knowledge graphs, monitoring targets, generating leads, managing your social media, and reporting results to your dashboard.
+Traditional agent frameworks wait for you to type something. SEEDBRO! runs **autonomous agents that work for you**: on schedules, 24/7, building knowledge graphs, monitoring targets, generating leads, managing your social media, and reporting results to your dashboard.
 
 The entire system compiles to a **single ~32MB binary**. One install, one command, your agents are live.
 
 ```bash
-curl -fsSL https://openfang.sh/install | sh
-openfang init
-openfang start
+curl -fsSL SEEDBRO! | sh
+BRO init
+BRO! start
 # Dashboard live at http://localhost:4200
 ```
 
@@ -52,9 +51,9 @@ openfang start
 <summary><strong>Windows</strong></summary>
 
 ```powershell
-irm https://openfang.sh/install.ps1 | iex
-openfang init
-openfang start
+irm https://SEEDBRO!.sh/install.ps1 | iex
+SEEDBRO! init
+SEEDBRO! start
 ```
 
 </details>
@@ -65,7 +64,7 @@ openfang start
 
 <p align="center"><em>"Traditional agents wait for you to type. Hands work <strong>for</strong> you."</em></p>
 
-**Hands** are OpenFang's core innovation. Pre-built autonomous capability packages that run independently, on schedules, without you having to prompt them. This is not a chatbot. This is an agent that wakes up at 6 AM, researches your competitors, builds a knowledge graph, scores the findings, and delivers a report to your Telegram before you've had coffee.
+**Hands**  core innovation. Pre-built autonomous capability packages that run independently, on schedules, without you having to prompt them. This is not a chatbot. This is an agent that wakes up at 6 AM, researches your competitors, builds a knowledge graph, scores the findings, and delivers a report to your Telegram before you've had coffee.
 
 Each Hand bundles:
 - **HAND.toml**: manifest declaring tools, settings, requirements, and dashboard metrics.
@@ -89,29 +88,29 @@ All compiled into the binary. No downloading, no pip install, no Docker pull.
 
 ```bash
 # Activate the Researcher Hand. It starts working immediately.
-openfang hand activate researcher
+ hand activate researcher
 
 # Check its progress anytime
-openfang hand status researcher
+ hand status researcher
 
 # Activate lead generation on a daily schedule
-openfang hand activate lead
+ hand activate lead
 
 # Pause without losing state
-openfang hand pause lead
+ hand pause lead
 
 # See all available Hands
-openfang hand list
+ hand list
 ```
 
 **Build your own.** Define a `HAND.toml` with tools, settings, and a system prompt. Publish to FangHub.
 
 ---
 
-## OpenFang vs The Landscape
+##  vs The Landscape
 
 <p align="center">
-  <img src="public/assets/openfang-vs-claws.png" width="600" alt="OpenFang vs OpenClaw vs ZeroClaw" />
+  <img src="public/assets/openfang-vs-claws.png" width="600" SEEDBRO vs OpenClaw vs ZeroClaw" />
 </p>
 
 ### Benchmarks: Measured, Not Marketed
@@ -122,7 +121,7 @@ All data from official documentation and public repositories, February 2026.
 
 ```
 ZeroClaw   ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   10 ms
-OpenFang   ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  180 ms    ★
+SEEDBRO  ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  180 ms    ★
 LangGraph  █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░  2.5 sec
 CrewAI     ████████████████████░░░░░░░░░░░░░░░░░░░░░░  3.0 sec
 AutoGen    ██████████████████████████░░░░░░░░░░░░░░░░░  4.0 sec
@@ -133,7 +132,7 @@ OpenClaw   ███████████████████████
 
 ```
 ZeroClaw   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    5 MB
-OpenFang   ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   40 MB    ★
+Seedbro!   ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   40 MB    ★
 LangGraph  ██████████████████░░░░░░░░░░░░░░░░░░░░░░░░░  180 MB
 CrewAI     ████████████████████░░░░░░░░░░░░░░░░░░░░░░░  200 MB
 AutoGen    █████████████████████████░░░░░░░░░░░░░░░░░░  250 MB
@@ -144,7 +143,7 @@ OpenClaw   ███████████████████████
 
 ```
 ZeroClaw   █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  8.8 MB
-OpenFang   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   32 MB    ★
+Seedbro!  ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   32 MB    ★
 CrewAI     ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  100 MB
 LangGraph  ████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  150 MB
 AutoGen    ████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░  200 MB
@@ -154,7 +153,7 @@ OpenClaw   ███████████████████████
 #### Security Systems (higher is better)
 
 ```
-OpenFang   ████████████████████████████████████████████   16      ★
+Seedbro!   ███████████████████████████████████████████   16      ★
 ZeroClaw   ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░    6
 OpenClaw   ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    3
 AutoGen    █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    2
@@ -165,7 +164,7 @@ CrewAI     ███░░░░░░░░░░░░░░░░░░░░
 #### Channel Adapters (higher is better)
 
 ```
-OpenFang   ████████████████████████████████████████████   40      ★
+Seedbro!   ████████████████████████████████████████████   40      ★
 ZeroClaw   ███████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░   15
 OpenClaw   █████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   13
 CrewAI     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░    0
@@ -177,7 +176,7 @@ LangGraph  ░░░░░░░░░░░░░░░░░░░░░░░
 
 ```
 ZeroClaw   ████████████████████████████████████████████   28
-OpenFang   ██████████████████████████████████████████░░   27      ★
+Seedbro!   ██████████████████████████████████████████░░   27      ★
 LangGraph  ██████████████████████░░░░░░░░░░░░░░░░░░░░░   15
 CrewAI     ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   10
 OpenClaw   ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   10
@@ -186,7 +185,7 @@ AutoGen    ███████████░░░░░░░░░░░░
 
 ### Feature-by-Feature Comparison
 
-| Feature | OpenFang | OpenClaw | ZeroClaw | CrewAI | AutoGen | LangGraph |
+| Feature | seedbro | OpenClaw | ZeroClaw | CrewAI | AutoGen | LangGraph |
 |---------|----------|----------|----------|--------|---------|-----------|
 | **Language** | **Rust** | TypeScript | **Rust** | Python | Python | Python |
 | **Autonomous Hands** | **7 built-in** | None | None | None | None | None |
@@ -205,7 +204,7 @@ AutoGen    ███████████░░░░░░░░░░░░
 
 ## 16 Security Systems: Defense in Depth
 
-OpenFang doesn't bolt security on after the fact. Every layer is independently testable and operates without a single point of failure.
+doesn't bolt security on after the fact. Every layer is independently testable and operates without a single point of failure.
 
 | # | System | What It Does |
 |---|--------|-------------|
@@ -233,19 +232,19 @@ OpenFang doesn't bolt security on after the fact. Every layer is independently t
 14 Rust crates. 137,728 lines of code. Modular kernel design.
 
 ```
-openfang-kernel      Orchestration, workflows, metering, RBAC, scheduler, budget tracking
-openfang-runtime     Agent loop, 3 LLM drivers, 53 tools, WASM sandbox, MCP, A2A
-openfang-api         140+ REST/WS/SSE endpoints, OpenAI-compatible API, dashboard
-openfang-channels    40 messaging adapters with rate limiting, DM/group policies
-openfang-memory      SQLite persistence, vector embeddings, canonical sessions, compaction
-openfang-types       Core types, taint tracking, Ed25519 manifest signing, model catalog
-openfang-skills      60 bundled skills, SKILL.md parser, FangHub marketplace
-openfang-hands       7 autonomous Hands, HAND.toml parser, lifecycle management
-openfang-extensions  25 MCP templates, AES-256-GCM credential vault, OAuth2 PKCE
-openfang-wire        OFP P2P protocol with HMAC-SHA256 mutual authentication
-openfang-cli         CLI with daemon management, TUI dashboard, MCP server mode
-openfang-desktop     Tauri 2.0 native app (system tray, notifications, global shortcuts)
-openfang-migrate     OpenClaw, LangChain, AutoGPT migration engine
+seedbro-kernel      Orchestration, workflows, metering, RBAC, scheduler, budget tracking
+seedbro-runtime     Agent loop, 3 LLM drivers, 53 tools, WASM sandbox, MCP, A2A
+seedbro-api         140+ REST/WS/SSE endpoints, OpenAI-compatible API, dashboard
+seedbro-channels    40 messaging adapters with rate limiting, DM/group policies
+seedbro-memory      SQLite persistence, vector embeddings, canonical sessions, compaction
+seedbro-types       Core types, taint tracking, Ed25519 manifest signing, model catalog
+seedbro-skills      60 bundled skills, SKILL.md parser, FangHub marketplace
+seedbro 7 autonomous Hands, HAND.toml parser, lifecycle management
+seedbro-extensions  25 MCP templates, AES-256-GCM credential vault, OAuth2 PKCE
+0seedbroOFP P2P protocol with HMAC-SHA256 mutual authentication
+seedbro-cli         CLI with daemon management, TUI dashboard, MCP server mode
+seedbro-desktop     Tauri 2.0 native app (system tray, notifications, global shortcuts)
+seedbro-migrate     OpenClaw, LangChain, AutoGPT migration engine
 xtask                Build automation
 ```
 
