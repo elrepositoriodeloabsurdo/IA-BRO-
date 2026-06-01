@@ -1,0 +1,10 @@
+{
+  "buildCommand": null,
+  "outputDirectory": "site",
+  "routes": [
+    { "src": "/install", "dest": "/install.sh", "headers": { "Content-Type": "text/plain" } },
+    { "src": "/install.ps1", "dest": "/install.ps1", "headers": { "Content-Type": "text/plain" } },
+    { "src": "/docs/(.*)", "dest": "/docs/$1" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}

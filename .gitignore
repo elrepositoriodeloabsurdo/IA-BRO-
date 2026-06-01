@@ -48,3 +48,7 @@ Thumbs.db
 
 # Personal deploy scripts
 scripts/deploy-remote.sh
+
+# Nested repositories
+/IA-BRO-/
+

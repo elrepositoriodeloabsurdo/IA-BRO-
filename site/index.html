@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenFang — The Autonomous Agent Operating System</title>
+  <meta name="description" content="Open-source Agent OS built in Rust. One binary, zero dependencies, 16 security layers, and 7 autonomous Hands working for you 24/7.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-icon">▲</span> Open<span>Fang</span>
+      </div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#benchmarks">Benchmarks</a>
+        <a href="#security">Security</a>
+        <a href="#install" class="btn-primary">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="container hero-container">
+      <div class="badge animate-fade-in">Autonomous & Secure</div>
+      <h1 class="animate-slide-up">The Agent Operating System</h1>
+      <p class="hero-subtitle animate-slide-up">
+        Built in Rust. Zero clippy warnings. Compiles to a single <strong>32MB binary</strong>. Runs autonomous agents that work for you 24/7, not just chatbot wrappers.
+      </p>
+
+      <!-- Terminal / Copy Block -->
+      <div class="terminal-container animate-slide-up">
+        <div class="terminal-header">
+          <div class="terminal-buttons">
+            <span class="btn-red"></span>
+            <span class="btn-yellow"></span>
+            <span class="btn-green"></span>
+          </div>
+          <span class="terminal-title">Quick Install</span>
+        </div>
+        <div class="terminal-body">
+          <div class="terminal-line">
+            <span class="terminal-prompt">$</span> <span class="terminal-cmd">curl -fsSL <span id="install-domain"></span>/install | sh</span>
+            <button class="copy-btn" onclick="copyCommand()">Copy</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-stats animate-fade-in">
+        <div class="stat-card">
+          <div class="stat-val">32MB</div>
+          <div class="stat-lbl">Single Binary</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">16</div>
+          <div class="stat-lbl">Security Layers</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">40+</div>
+          <div class="stat-lbl">Channel Adapters</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Built for Autonomy</h2>
+        <p>Traditional agent frameworks wait for you to prompt them. OpenFang Hands wake up, run on schedules, and deliver results independently.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>OSINT Lead Generator</h3>
+          <p>Discovers matching ICP prospects, enriches via deep web research, scores leads 0-100, and outputs structured reports.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📰</div>
+          <h3>Deep Researcher</h3>
+          <p>Cross-references multiple web sources, evaluates credibility via CRAAP criteria, and constructs APA-cited PDF reports.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>40 Channels Ready</h3>
+          <p>Native connectors for WhatsApp Web (QR code), Telegram, Slack, Discord, Signal, Matrix, Enterprise channels, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benchmarks Section -->
+  <section id="benchmarks" class="benchmarks">
+    <div class="container">
+      <div class="section-header">
+        <h2>Unmatched Performance</h2>
+        <p>Engineered in low-level safe Rust, bypassing massive runtime interpretation overheads completely.</p>
+      </div>
+
+      <div class="bench-chart">
+        <div class="bench-row">
+          <span class="bench-label">Cold Start (lower is better)</span>
+          <div class="bench-bar-container">
+            <div class="bench-bar best" style="width: 5%">OpenFang <span class="bench-time">180ms</span></div>
+            <div class="bench-bar" style="style: 70%">LangGraph <span class="bench-time">2.5s</span></div>
+            <div class="bench-bar" style="style: 100%">OpenClaw <span class="bench-time">5.98s</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Security Section -->
+  <section id="security" class="security">
+    <div class="container">
+      <div class="section-header">
+        <h2>16 Defense-in-Depth Layers</h2>
+        <p>Secure-by-default execution environment keeping system APIs safe.</p>
+      </div>
+      <div class="security-grid">
+        <div class="sec-item">🛡️ WASM Dual-Metered Sandbox</div>
+        <div class="sec-item">🔗 Merkle Hash-Chain Audit Trail</div>
+        <div class="sec-item">🧪 Info Flow Taint Tracking</div>
+        <div class="sec-item">🔑 Ed25519 Signed Manifests</div>
+        <div class="sec-item">🔒 SSRF & Path Traversal Guards</div>
+        <div class="sec-item">🔥 Zeroizing Sensitive Memory</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2026 OpenFang OS. Open Source under MIT License.</p>
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="https://github.com/elrepositoriodeloabsurdo/IA-BRO-" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Automatically set the current domain
+    document.getElementById('install-domain').textContent = window.location.origin;
+
+    function copyCommand() {
+      const text = `curl -fsSL ${window.location.origin}/install | sh`;
+      navigator.clipboard.writeText(text);
+      const copyBtn = document.querySelector('.copy-btn');
+      copyBtn.textContent = 'Copied!';
+      setTimeout(() => {
+        copyBtn.textContent = 'Copy';
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
