@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/VibeCodingChile" width="160" alt="vinecodingchile" />
+  <img src="public/VibeCodingChile" width="160" alt="vibecodingchile" />
 </p>
 
 <h1 align="center">SEEDBRO! </h1>
